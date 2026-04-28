@@ -78,10 +78,16 @@ Access the complete source code, including our Graph Theory implementation for p
 👉 https://github.com/tejaswini132004/CrisisApp.git
 
 ---
-
 ## 💻 Project Deck
 A concise presentation detailing our research methodology, technical architecture, and impact.
-👉 https://drive.google.com/file/d/1T5-6JdtG4o5vwUvdG4aeAA71zQU1qGH0/view?usp=drive_link
+👉 https://drive.google.com/file/d/1T5-6JdtG4o5vwUvdG4aeAA71zQU1qGH0/view?usp=sharing
+
+---
+
+## 💻 Demo Link
+
+👉 https://drive.google.com/drive/folders/1aJT3-p6XopVX0hDsk9F7_QWVGdN3uoH7
+
 ---
 
 ## 🛠️ Tech Stack
