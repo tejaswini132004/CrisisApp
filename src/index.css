@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { -webkit-tap-highlight-color: transparent; box-sizing: border-box; }
+body { 
+  -webkit-font-smoothing: antialiased; 
+  overscroll-behavior: none;
+  background: #fff;
+}
+input, textarea, select, button { font-size: 16px; } /* Prevent iOS zoom */
+
+@keyframes emergencyBlink {
+  0%, 100% { opacity: 1; box-shadow: 0 0 0 rgba(239,68,68,0); }
+  50% { opacity: 0.25; box-shadow: 0 0 20px rgba(239,68,68,0.8); }
+}
+
+@keyframes slideDown { 
+  from { opacity:0; transform:translateY(-12px); } 
+  to { opacity:1; transform:translateY(0); } 
+}
+
+@keyframes panicPulse {
+  0%, 100% { background-color: transparent; }
+  50% { background-color: rgba(239, 68, 68, 0.08); }
+}
+
+.slide-down { animation: slideDown 0.35s ease forwards; }
+.emergency-blink { animation: emergencyBlink 0.9s ease-in-out infinite; }
+.panic-bg { animation: panicPulse 1.5s ease-in-out infinite; }
+
+/* Smooth scrollbar */
+::-webkit-scrollbar { width: 4px; height: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #d1d5db; border-radius: 4px; }
